@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.first{
+    display: inline-block;
+}
+.second{
+    display: inline-block;
+}
+
+.box{
+    background-color: orange;
+    border: 20px solid palevioletred;
+    text-align: center;
+    width: 230px;
+    padding: 30px ;
+    margin: 50px;
+    overflow: scroll;
+    
+}
