@@ -1,0 +1,16 @@
+ul{
+    list-style: lower-alpha;
+    list-style-position: inside;
+}
+
+.list2{
+    list-style-type:upper-roman;
+}
+
+.list3{
+    list-style: decimal;
+}
+
+/* .l1{
+    list-style: upper-alpha;
+} */
