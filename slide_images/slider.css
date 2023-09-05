@@ -1,0 +1,39 @@
+body{
+    background-color: skyblue;
+    display: grid;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    /* place-items:; */
+}
+.slide-container{
+    display: flex;
+    width: 500px;
+    animation: slide 20s infinite linear;
+}
+
+.slide-image{
+    padding: 20px;
+    perspective: 100px;
+}
+
+img{
+    width: 500px;
+transition: transform 1s;
+}
+img:hover{
+    /*transform: translateZ(20px);*/
+}
+
+@keyframes slide{
+    0%{
+        transform: translate(20px);
+    }
+    100%{
+        transform: translate(-2000px);
+    }
+}

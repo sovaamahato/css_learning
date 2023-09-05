@@ -1,9 +1,16 @@
 table{
-    width: 300px;
-    height: 200px;
+
+    width: 400px;
+    height: 250px;
     border-style: solid;
     border-width: 2px;
     background-color: aquamarine;
     border-color: brown;
     
+}
+
+tr,td{
+    border: 1px solid rgb(114, 58, 58);
+    padding: 10px;
+    margin: 10px;
 }
